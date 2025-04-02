@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    if (!sessionStorage.getItem("sessionVisited")) {
+        alert("Bem-vindo ao meu site, me chamo Cael e este site foi feito para meu estudo, sinta-se a vontade para entrar em contato e me informar algumas possiveis melhorias :D.");
+        sessionStorage.setItem("sessionVisited", "true"); // Marca a sessão como visitada
+    }
+});
+
+    </script>
+
+    <header>
+        <h1>Catálogo de Filmes</h1>
+    </header>
+
+    <div class="grid-container">
+        <div class="filme-card">
+            <a href="detalhes.html?titulo=Shrek">
+                <img src="imagens/shrek.png" alt="Shrek">
+                <h3>Shrek</h3>
+            </a>
+        </div>
+
+        <div class="filme-card">
+            <a href="detalhes.html?titulo=Coraline">
+                <img src="imagens/coraline.jpg" alt="Coraline">
+                <h3>Coraline</h3>
+            </a>
+        </div>
+
+        <div class="filme-card">
+            <a href="detalhes.html?titulo=Cars">
+                <img src="imagens/carros.jpg" alt="Cars">
+                <h3>Carros</h3>
+            </a>
+        </div>
+
+        <div class="filme-card">
+            <a href="detalhes.html?titulo=Howl's Moving Castle">
+                <img src="imagens/castelo_animado.jpg" alt="Howl's Moving Castle">
+                <h3>O castelo animado</h3>
+            </a>
+        </div>
+
+        <div class="filme-card">
+            <a href="detalhes.html?titulo=Puss+in+Boots:+The+Last+Wish">
+                <img src="imagens/gato_de_botas.jpg" alt="Gato de Botas 2">
+                <h3>Gato de Botas 2</h3>
+            </a>
+        </div>
+
+        <div class="filme-card">
+            <a href="detalhes.html?titulo=Tarzan">
+                <img src="imagens/tarzan.jpg" alt="Tarzan">
+                <h3>Tarzan</h3>
+            </a>
+        </div>
+
+
+        <div class="filme-card">
+            <a href="detalhes.html?titulo=Tarza">
+                <img src="imagens/default.jpg" alt="Error">
+                <h3>Erro Proposital</h3>
+            </a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+<footer>
+    <div class="footer-container">
+        <p>
+            <i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/55XX999999999" target="_blank">+99 (99) 99999-9999 número propositalmente ilustrativo</a>
+        </p>
+        <p>
+            <i class="fa fa-envelope"></i> <a href="mailto:seuemail@gmail.com">caeldavidsoares@gmail.com</a>
+        </p>
+    </div>
+</footer>
+
+
+</html>

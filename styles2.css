@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #b12121;
+    padding: 20px;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+#detalhes-filme {
+    background-color: #3f1212;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgb(255, 255, 255);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#imagem-filme {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#titulo-filme {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#sinopse {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#nota-imdb {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#trailer-button {
+    background-color: #911919;   
+    color: white;                
+    padding: 10px 20px;         
+    font-size: 16px;            
+    font-weight: bold;          
+    border: none;               
+    border-radius: 5px;         
+    cursor: pointer;            
+    transition: background-color 0.3s, transform 0.2s;  
+}
+
+ 
+#trailer-button:hover {
+    background-color: #c82333;   
+    transform: scale(1.05);     
+}
+
+ 
+#trailer-button:focus {
+    outline: none;         
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);   
+}
+
+ 
+#trailer-button a {
+    color: white;                
+    text-decoration: none;       
+}
+
+ #trailer-button a:hover {
+    text-decoration: underline;  
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #000000ab;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item {
+    margin-right: 20px;
+}
+
+.contact-item i {
+    margin-right: 8px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: white;
+}
+#voltar{
+    margin-left: auto;
+    margin-right: 20px;
+    text-align: right;
+    transition: transform 0.3s ease-in-out;
+}
+
+#voltar:hover{
+    transform: scale(1.01) ;
+    margin-left: auto;
+}
