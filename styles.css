@@ -1,18 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-image: url(imagens/Fundinho.jpg);
     color: white;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-
+.topo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    height: 10px;
+  }
+  
+  .botao-header {
+    padding: 10px 20px;
+    background-color: rgba(7, 0, 0, 0.452);
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .botao-header:hover{
+    background-color: azure;
+    color:#000000;
+  }
 
 header {
-    background-color: #911919;
+    background-image: url(imagens/FUNDÃO.webp);
     padding: 20px;
     font-size: 18px;
+    color:#ffffff;
+    text-shadow:8px 8px 16px rgba(7, 0, 0, 0.7) ;
 }
 
 .grid-container {
@@ -27,7 +50,7 @@ header {
 .filme-card {
     width: 300px;
     height: 400px;
-    background-color: #3f1212;
+    background-color: #3f121262;
     border-radius: 8px;
     padding: 8px;
     box-shadow: 0px 4px 10px rgba(255, 160, 160, 0.568);
