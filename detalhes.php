@@ -45,12 +45,15 @@
         </p>
         <p>
             <i class="fa fa-envelope"></i> 
-            <a href="mailto:caeldavidsoares@gmail.com">caeldavidsoares@gmail.com</a>
+            <a href="mailto:caeldavidsoares@gmail.com">caeldavidsoares@gmail.com</a><br>
+            <i class="fa fa-envelope"></i> 
+            <a href="andertorresjr10@gmail.com">andertorresjr10@gmail.com</a>
         </p>
     </div>
     <div class="container">
         <div id="voltar">
             <a href="index.php"><img src="imagens/voltar.png" alt="Voltar"></a>
+            
         </div>
     </div>
 </footer>
