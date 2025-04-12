@@ -31,8 +31,16 @@ if (!isset($_SESSION["usuario"])) {
 
         <button type="button" id="buscarImagem">Buscar Imagem</button><br><br>
 
-        <label for="nome">Nome em português (ex: Interestelar):</label>
+        <label for="nome">Título em português (ex: Interestelar):</label>
         <input type="text" id="nome" required><br><br>
+
+        <label for="nota">Sua nota (1 a 10) :</label>
+        <input type="text" id="nota" required><br><br>
+
+        <label for="opiniao">Sua opinião :</label>
+        <textarea id="opiniao" rows="5" style="width: 50%;" style="width: 100%;" required></textarea><br><br>
+
+
 
         <label for="imagem">Imagem do IMDb:</label>
         <input type="text" id="imagem" readonly>
@@ -88,6 +96,8 @@ document.getElementById("formFilme").addEventListener("submit", function (e) {
     const novoFilme = {
         titulo: document.getElementById("titulo").value.trim(),
         nome: document.getElementById("nome").value.trim(),
+        "nota": document.getElementById("nota").value.trim(),
+        "opiniao": document.getElementById("opiniao").value.trim(),
         img: document.getElementById("imagem").value.trim(),
         trailer: document.getElementById("trailer").value.trim()
     };
